@@ -6,14 +6,14 @@ import cookieParser from "cookie-parser"
 import { errorHandler } from "./middleware/errorHandler.js"
 
 // Routes
-import authRoutes from "./routes/auth.routes"
-import appointmentRoutes from "./routes/appointment.routes"
-import medicalRecordRoutes from "./routes/medicalRecord.routes"
-import consultationRoutes from "./routes/consultation.routes"
-import emergencyRoutes from "./routes/emergency.routes"
-import reportRoutes from "./routes/report.routes"
-import chatbotRoutes from "./routes/chatbot.routes"
-import userRoutes from "./routes/user.routes"
+import authRoutes from "./routes/auth.routes.js"
+import appointmentRoutes from "./routes/appointment.routes.js"
+import medicalRecordRoutes from "./routes/medicalRecord.routes.js"
+import consultationRoutes from "./routes/consultation.routes.js"
+import emergencyRoutes from "./routes/emergency.routes.js"
+import reportRoutes from "./routes/report.routes.js"
+import chatbotRoutes from "./routes/chatbot.routes.js"
+import userRoutes from "./routes/user.routes.js"
 
 dotenv.config()
 

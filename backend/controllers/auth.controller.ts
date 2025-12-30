@@ -1,6 +1,6 @@
 import type { Request, Response } from "express"
-import User from "../models/User"
-import { createError } from "../utils/error"
+import User from "../models/User.js"
+import { createError } from "../utils/error.js"
 
 // Register a new user
 export const register = async (req: Request, res: Response) => {

@@ -1,6 +1,6 @@
 import express from "express"
-import { processChatbotMessage, getChatbotHistory } from "../controllers/chatbot.controller"
-import { authenticate } from "../middleware/auth"
+import { processChatbotMessage, getChatbotHistory } from "../controllers/chatbot.controller.js"
+import { authenticate } from "../middleware/auth.js"
 
 const router = express.Router()
 

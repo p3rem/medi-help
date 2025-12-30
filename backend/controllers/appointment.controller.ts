@@ -1,7 +1,7 @@
 import type { Request, Response } from "express"
-import Appointment from "../models/Appointment"
-import User from "../models/User"
-import { createError } from "../utils/error"
+import Appointment from "../models/Appointment.js"
+import User from "../models/User.js"
+import { createError } from "../utils/error.js"
 
 // Get all appointments for the current user
 export const getUserAppointments = async (req: Request, res: Response) => {

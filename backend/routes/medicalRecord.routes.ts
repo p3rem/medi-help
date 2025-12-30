@@ -5,8 +5,8 @@ import {
   createMedicalRecord,
   updateMedicalRecord,
   deleteMedicalRecord,
-} from "../controllers/medicalRecord.controller"
-import { authenticate, authorize } from "../middleware/auth"
+} from "../controllers/medicalRecord.controller.js"
+import { authenticate, authorize } from "../middleware/auth.js"
 
 const router = express.Router()
 

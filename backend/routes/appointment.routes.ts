@@ -6,8 +6,8 @@ import {
   updateAppointment,
   cancelAppointment,
   getDoctorAvailability,
-} from "../controllers/appointment.controller"
-import { authenticate, authorize } from "../middleware/auth"
+} from "../controllers/appointment.controller.js"
+import { authenticate, authorize } from "../middleware/auth.js"
 
 const router = express.Router()
 

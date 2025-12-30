@@ -1,7 +1,7 @@
 import type { Request, Response } from "express"
-import MedicalRecord from "../models/MedicalRecord"
-import User from "../models/User"
-import { createError } from "../utils/error"
+import MedicalRecord from "../models/MedicalRecord.js"
+import User from "../models/User.js"
+import { createError } from "../utils/error.js"
 
 // Get all medical records for a patient
 export const getPatientMedicalRecords = async (req: Request, res: Response) => {
